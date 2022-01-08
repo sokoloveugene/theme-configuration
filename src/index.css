@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* tailwind rgb values */
+  --color-contrast-lowest: 255 255 255;
+  --color-contrast-lower: 242 242 242;
+  --color-contrast-low: 211 211 212;
+  --color-contrast-medium: 121 121 124;
+  --color-contrast-high: 49 49 53;
+  --color-contrast-higher: 0 0 0;
+}
+
+[data-theme] {
+  background-color: rgb(var(--color-contrast-lowest));
+  color: rgb(var(--color-contrast-high));
+}
+
+[data-theme="dark"] {
+  /* tailwind rgb values */
+  --color-contrast-lowest: 0 0 0;
+  --color-contrast-lower: 36 36 41;
+  --color-contrast-low: 62 61 66;
+  --color-contrast-medium: 144 144 146;
+  --color-contrast-high: 227 227 227;
+  --color-contrast-higher: 255 255 255;
+}
+
+[data-theme="princess"] {
+  /* tailwind rgb values */
+  --color-contrast-lowest: 255 255 255;
+  --color-contrast-lower: 253 205 245;
+  --color-contrast-low: 248 153 232;
+  --color-contrast-medium: 224 108 205;
+  --color-contrast-high: 128 35 112;
+  --color-contrast-higher: 0 0 0;
+}
