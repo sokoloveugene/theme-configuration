@@ -9,5 +9,5 @@
 </div>
 
 <div align="center">
-    <img src="./public/Screenshot2.png" alt="React Hook Form Logo - React hook custom hook for form validation" />
+    <img src="./public/Screenshot3.png" alt="React Hook Form Logo - React hook custom hook for form validation" />
 </div>
